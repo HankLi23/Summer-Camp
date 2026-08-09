@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Machine-learning datasets (keep data local; commit download/preparation code only)
+/data/
+/dataset/
+/datasets/
+/code/Alexnet/flower_data/
+/code/Lenet/cifar-10-batches-py/
+/code/Lenet/cifar-10-python.tar.gz
+
+# Local inference images and generated training artifacts
+/code/Alexnet/predict/
+/code/Lenet/horse/
+/runs/
+**/bert_sentiment_model/
+**/checkpoint-*/
+
+# Model weights and exported models
+*.pt
+*.pth
+*.ckpt
+*.onnx
